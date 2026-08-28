@@ -1,0 +1,264 @@
+{
+  "units": "lb",
+  "_comment": "Example program: a four-day split with the weights removed. Copy this to personal/program.json, replace each routine_id with one of your own, and fill in weight_lb -- or skip all of that and run 'python3 cli.py init' to build the file from the routines already in your Hevy account. null weight means the working weight has not been established yet; the push sends an empty weight and you find it in the gym.",
+  "days": [
+    {
+      "routine_id": "PUT-YOUR-HEVY-ROUTINE-ID-HERE",
+      "title": "01",
+      "focus": "Chest + Triceps (quad/calf slot)",
+      "exercises": [
+        {
+          "exercise_template_id": "C7973E0E",
+          "title": "Leg Press (Machine)",
+          "superset": "A",
+          "rest_seconds": 90,
+          "warmup": {
+            "weight_lb": null,
+            "reps": 10
+          },
+          "sets": 4,
+          "rep_range": [
+            8,
+            12
+          ],
+          "weight_lb": null
+        },
+        {
+          "exercise_template_id": "91237BDD",
+          "title": "Calf Press (Machine)",
+          "superset": "A",
+          "rest_seconds": 45,
+          "sets": 3,
+          "rep_range": [
+            10,
+            15
+          ],
+          "weight_lb": null
+        },
+        {
+          "exercise_template_id": "50DFDFAB",
+          "title": "Incline Bench Press (Barbell)",
+          "rest_seconds": 120,
+          "warmup": {
+            "weight_lb": null,
+            "reps": 10
+          },
+          "sets": 4,
+          "rep_range": [
+            6,
+            10
+          ],
+          "weight_lb": null
+        },
+        {
+          "exercise_template_id": "7EB3F7C3",
+          "title": "Chest Press (Machine)",
+          "rest_seconds": 75,
+          "sets": 4,
+          "rep_range": [
+            10,
+            15
+          ],
+          "weight_lb": null
+        },
+        {
+          "exercise_template_id": "B5EFBF9C",
+          "title": "Overhead Triceps Extension (Cable)",
+          "rest_seconds": 60,
+          "sets": 3,
+          "rep_range": [
+            10,
+            15
+          ],
+          "weight_lb": null
+        }
+      ]
+    },
+    {
+      "routine_id": "PUT-YOUR-HEVY-ROUTINE-ID-HERE",
+      "title": "02",
+      "focus": "Back width + Biceps",
+      "exercises": [
+        {
+          "exercise_template_id": "6A6C31A5",
+          "title": "Lat Pulldown (Cable)",
+          "rest_seconds": 90,
+          "sets": 4,
+          "rep_range": [
+            8,
+            12
+          ],
+          "weight_lb": null
+        },
+        {
+          "exercise_template_id": "914F3A96",
+          "title": "Chest Supported Incline Row (Dumbbell)",
+          "rest_seconds": 90,
+          "sets": 4,
+          "rep_range": [
+            8,
+            12
+          ],
+          "weight_lb": null
+        },
+        {
+          "exercise_template_id": "BE640BA0",
+          "title": "Face Pull",
+          "rest_seconds": 60,
+          "sets": 3,
+          "rep_range": [
+            12,
+            20
+          ],
+          "weight_lb": null
+        },
+        {
+          "exercise_template_id": "7E3BC8B6",
+          "title": "Hammer Curl (Dumbbell)",
+          "rest_seconds": 60,
+          "sets": 3,
+          "rep_range": [
+            10,
+            15
+          ],
+          "weight_lb": null
+        }
+      ]
+    },
+    {
+      "routine_id": "PUT-YOUR-HEVY-ROUTINE-ID-HERE",
+      "title": "03",
+      "focus": "Shoulders + Triceps (hamstring/calf slot)",
+      "exercises": [
+        {
+          "exercise_template_id": "11A123F3",
+          "title": "Seated Leg Curl (Machine)",
+          "superset": "A",
+          "rest_seconds": 75,
+          "sets": 4,
+          "rep_range": [
+            10,
+            15
+          ],
+          "weight_lb": null
+        },
+        {
+          "exercise_template_id": "91237BDD",
+          "title": "Calf Press (Machine)",
+          "superset": "A",
+          "rest_seconds": 45,
+          "sets": 3,
+          "rep_range": [
+            10,
+            15
+          ],
+          "weight_lb": null
+        },
+        {
+          "exercise_template_id": "7B8D84E8",
+          "title": "Overhead Press (Barbell)",
+          "rest_seconds": 150,
+          "warmup": {
+            "weight_lb": null,
+            "reps": 8
+          },
+          "sets": 4,
+          "rep_range": [
+            5,
+            8
+          ],
+          "weight_lb": null
+        },
+        {
+          "exercise_template_id": "422B08F1",
+          "title": "Lateral Raise (Dumbbell)",
+          "rest_seconds": 60,
+          "sets": 5,
+          "rep_range": [
+            12,
+            20
+          ],
+          "weight_lb": null
+        },
+        {
+          "exercise_template_id": "94B7239B",
+          "title": "Triceps Rope Pushdown",
+          "rest_seconds": 60,
+          "sets": 3,
+          "rep_range": [
+            10,
+            15
+          ],
+          "weight_lb": null
+        }
+      ]
+    },
+    {
+      "routine_id": "PUT-YOUR-HEVY-ROUTINE-ID-HERE",
+      "title": "04",
+      "focus": "Back thickness + Delts + Arms",
+      "exercises": [
+        {
+          "exercise_template_id": "2C37EC5E",
+          "title": "Pull Up (Assisted)",
+          "rest_seconds": 120,
+          "warmup": {
+            "weight_lb": null,
+            "reps": 5
+          },
+          "sets": 4,
+          "rep_range": [
+            5,
+            10
+          ],
+          "weight_lb": null,
+          "notes": "Weight is assistance: progress by REDUCING it. 10 reps on all 4 sets -> drop the assistance. Test one unassisted rep before the working sets; at three clean reps, switch to unassisted."
+        },
+        {
+          "exercise_template_id": "0393F233",
+          "title": "Seated Cable Row - V Grip (Cable)",
+          "rest_seconds": 90,
+          "sets": 4,
+          "rep_range": [
+            8,
+            12
+          ],
+          "weight_lb": null
+        },
+        {
+          "exercise_template_id": "422B08F1",
+          "title": "Lateral Raise (Dumbbell)",
+          "rest_seconds": 60,
+          "sets": 4,
+          "rep_range": [
+            12,
+            20
+          ],
+          "weight_lb": null
+        },
+        {
+          "exercise_template_id": "BE640BA0",
+          "title": "Face Pull",
+          "rest_seconds": 60,
+          "sets": 3,
+          "rep_range": [
+            12,
+            20
+          ],
+          "weight_lb": null
+        },
+        {
+          "exercise_template_id": "9F48F858",
+          "title": "Reverse Curl (Cable)",
+          "rest_seconds": 60,
+          "sets": 3,
+          "rep_range": [
+            10,
+            15
+          ],
+          "weight_lb": null
+        }
+      ]
+    }
+  ]
+}

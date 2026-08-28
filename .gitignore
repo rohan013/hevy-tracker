@@ -1,0 +1,6 @@
+.env
+data/hevy.db
+__pycache__/
+*.pyc
+/personal/
+.claude/settings.local.json
